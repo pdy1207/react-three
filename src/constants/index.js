@@ -9,20 +9,26 @@ import {
   css,
   reactjs,
   redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  infocar,
   carrent,
   jobit,
   tripguide,
+  spring,
   threejs,
+  github2,
+  bizring,
+  admin,
+  jejubeer,
+  resume,
+  vuebangapp,
+  spring2,
+  news,
+  android,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +52,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Server Developer",
     icon: mobile,
   },
   {
@@ -85,10 +91,6 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -105,6 +107,10 @@ const technologies = [
     icon: git,
   },
   {
+    name: "github",
+    icon: github2,
+  },
+  {
     name: "figma",
     icon: figma,
   },
@@ -112,61 +118,67 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "spring",
+    icon: spring,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Vue.js Developer",
+    company_name: "Infocar",
+    icon: infocar,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April 2023 ~ ing",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Infocar company page creation, scanner registration and map page creation",
+      "Develop and manage web applications using Vue.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "PHP & LINUX Developer",
+    company_name: "infocar",
+    icon: infocar,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "December 2022 - May 2023-05",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Although it was a short time, I participated in the SI project and conducted development and communication with companies.",
+
+      "Production of application site and admin page",
+      "Create and maintain application sites and administration pages.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Permissions & access to server",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -198,9 +210,97 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "VuebangApp",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is a review room app made with Vue. This project was created to complete the study of Vue. We also added a payment function using the Toss API.",
+
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SASS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vuebangapp,
+    source_code_link: "https://github.com/pdy1207/Vuebangapp",
+  },
+  {
+    name: "Simple web resume",
+    description:
+      "This is a resume that I made so that I can simply introduce myself.",
+
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SASS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: resume,
+    source_code_link: "https://github.com/pdy1207/Dy.dev",
+  },
+  {
+    name: "BizringKia, BizringSamsung, BizringRich",
+    description:
+      "Creating a application page that users can apply for and setting restrictions,Production of application sites for Samsung Fire & Marine, Rich & Co., Kia Motors, etc. in relation to Biz Ring",
+
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "MYSQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bizring,
+    source_code_link: "https://its4u.co.kr/bizring_kia/",
+  },
+  {
+    name: "Bizring Admin",
+    description:
+      "Bizring is a manager page manufacturer for Samsung Fire & Marine Insurance, Rich & Co., Kia Motors, etc. You can search by date name, date of birth, download Excel, modify, and delete.",
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MYSQL",
+        color: "green-text-gradient",
+      },
+    ],
+    image: admin,
+    source_code_link: "",
+  },
+  {
+    name: "DoyoungJeju",
+    description:
+      "The Jeju Beer site looks so pretty, so clean code and production in my own way!",
     tags: [
       {
         name: "react",
@@ -215,50 +315,97 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: jejubeer,
+    source_code_link: "https://github.com/pdy1207/Jejubeer",
   },
   {
-    name: "Job IT",
+    name: "Lego Site",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "I wanted to make a toy site, so I tried to make my favorite Lego site.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "JS",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/pdy1207/Lego_Website",
+  },
+  {
+    name: "Node Pharmacy",
+    description:
+      "A map showing pharmacies in range of your location if the corona gets worse",
+    tags: [
+      {
+        name: "Node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/pdy1207/nodeProject",
+  },
+  {
+    name: "Spring board",
+    description:
+      "Bulletin board project using DB linkage and mybatis/spring boot",
+    tags: [
+      {
+        name: "JAVA",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spring Boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: spring2,
+    source_code_link: "https://github.com/pdy1207/Spring_board",
+  },
+  {
+    name: "Refrigerator App",
+    description:
+      "It is an app that solves such overconsumption by storing ingredients and allows you to view and manage refrigerator ingredients anytime, anywhere. You can find out the market price by listing what you have been shopping for, and you can adjust the schedule while checking the schedule. Cute illustrations and motion (Lottie) were applied.",
+    tags: [
+      {
+        name: "JAVA",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: android,
+    source_code_link: "https://github.com/pdy1207/-Refrigerator_App",
+  },
+  {
+    name: "Daily News Dy APP",
+    description:
+      "There are daily news and popular news like daily photos such as Instagram and Facebook, and you can search and translate. It is an app made for convenient viewing in a busy modern society.",
+    tags: [
+      {
+        name: "JAVA",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: news,
+    source_code_link: "https://github.com/pdy1207/DYN",
   },
 ];
 

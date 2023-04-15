@@ -68,17 +68,13 @@ const Works = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <p className={styles.sectionSubText}>The picture is part of it.</p>
       </motion.div>
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nam,
-          exercitationem harum tempora incidunt consequuntur, unde rem mollitia
-          reprehenderit enim quae, reiciendis impedit quisquam omnis tempore
-          repudiandae quas nihil laborum!
-        </motion.p>
+        ></motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (

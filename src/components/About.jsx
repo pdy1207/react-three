@@ -44,10 +44,9 @@ const About = () => {
         className="mt-4 text-secondary text-[17px]
       max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quae
-        quo eligendi exercitationem fuga eaque est repellat cupiditate, impedit,
-        aliquid ut! Sapiente quibusdam consequatur voluptatem quo commodi
-        doloribus ut laborum!
+        Challenge yourself in different fields, learn challenging goals, and
+        progress through the learning process. I am a developer. I am developing
+        my skills through side projects.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((services, index) => (
